@@ -1836,6 +1836,7 @@ el:
       hide_password: "Απόκρυψη"
       show_password_title: "Εμφάνιση κωδικού πρόσβασης"
       hide_password_title: "Απόκρυψη κωδικού πρόσβασης"
+      second_factor_title: "Έλεγχος Ταυτότητας Δύο Παραγόντων"
       second_factor_description: "Παρακαλώ εισαγάγετε τον κωδικό ελέγχου ταυτότητας από την εφαρμογή σας:"
       second_factor_backup: "Συνδεθείτε χρησιμοποιώντας έναν εφεδρικό κωδικό"
       second_factor_backup_description: "Παρακαλώ εισαγάγετε έναν από τους εφεδρικούς κωδικούς σας:"
@@ -2369,6 +2370,7 @@ el:
     topics:
       new_messages_marker: "τελευταία επίσκεψη"
       bulk:
+        confirm: "Επιβεβαίωση"
         select_all: "Επιλογή Όλων"
         clear_all: "Καθαρισμός Όλων"
         unlist_topics: "Απόκρυψη Νημάτων"
@@ -2401,6 +2403,9 @@ el:
         selected:
           one: "Έχεις διαλέξει <b>%{count}</b> θέμα."
           other: "Έχετε επιλέξει <b>%{count}</b> θέματα."
+        selected_count:
+          one: "%{count} επιλεγμένα"
+          other: "%{count} επιλεγμένα"
         change_tags: "Αντικατάσταση Ετικετών "
         append_tags: "Προσάρτηση Ετικετών "
         choose_new_tags: "Επιλέξτε νέες ετικέτες για αυτά τα θέματα:"
@@ -2868,6 +2873,7 @@ el:
       has_replies:
         one: "%{count} Απάντηση"
         other: "%{count} Απαντήσεις"
+      has_replies_count: "%{count}"
       unknown_user: "(άγνωστος/διαγραμμένος χρήστης)"
       has_likes_title:
         one: "%{count} άτομο πάτησε \"μου αρέσει\" στη δημοσίευση"
@@ -3296,6 +3302,7 @@ el:
           other: "%{count} αδιάβαστα"
       hot:
         title: "Δημοφιλή"
+        lower_title: "δημοφιλή"
       new:
         lower_title_with_count:
           one: "%{count} νέο"
@@ -3778,6 +3785,7 @@ el:
         help:
           enter_key: "Enter"
       edit:
+        btn_edit: "Επεξεργασία Πίνακα"
         modal:
           title: "Επεξεργασία Πίνακα"
           cancel: "ακύρωση"
@@ -4148,6 +4156,7 @@ el:
         change_settings_short: "Ρυθμίσεις"
         howto: "Πως εγκαθιστώ πρόσθετα;"
         author: "Του/της %{author}"
+        experimental_badge: "πειραματικό"
         learn_more: "Μάθε περισσότερα"
         sidebar_link:
           installed: "Εγκατεστημένα"
@@ -5165,6 +5174,7 @@ el:
         allow_title: Το παράσημο μπορεί να χρησιμοποιηθεί σαν τίτλος
         multiple_grant: Μπορεί να απονεμηθεί πολλές φορές
         listable: Εμφάνιση του παράσημου στη δημόσια σελίδα παρασήμων
+        enabled: ενεργοποιημένα
         disabled: απενεργοποιημένα
         icon: Σύμβολο
         image: Εικόνα

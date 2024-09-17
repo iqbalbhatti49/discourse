@@ -128,6 +128,8 @@ pl_PL:
               label: Kategoria
             restricted_group:
               label: Grupa
+            ignore_group_members:
+              label: Ignoruj członków grupy
           created: Utworzono
           edited: Edytowany
         user_updated:

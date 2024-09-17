@@ -5316,6 +5316,8 @@ cs:
             topic: "témata"
             post: "příspěvky"
             chat_message: "zprávy v chatu"
+          more_options:
+            title: "Další možnosti"
       plugins:
         title: "Pluginy"
         installed: "Nainstalované pluginy"
@@ -5824,6 +5826,7 @@ cs:
           title: "Hledání"
           term: "Období"
           searches: "Vyhledávání"
+          click_through_rate: "CTR"
           types:
             all_search_types: "Vyhledávat všechny typy"
             header: "Hlavička"
@@ -5960,6 +5963,7 @@ cs:
         suspended_until: "(až %{until})"
         suspend_forever: "Pozastavit navždy"
         cant_suspend: "Tento uživatel nemůže být suspendován"
+        post_edits: "Úpravy příspěvků"
         penalty_post_actions: "Co byste chtěli udělat s tímto přidruženým příspěvkem?"
         penalty_post_delete: "Smazat příspěvek"
         penalty_post_edit: "Upravit příspěvek"
@@ -6007,6 +6011,7 @@ cs:
         approve_success: "Uživatel byl schválen a byl mu zaslán aktivační email s instrukcemi."
         approve_bulk_success: "Povedlo se! Všichni uživatelé byli schváleni a byly jim rozeslány notifikace."
         time_read: "Čas strávený čtením"
+        post_edits_count: "Úpravy příspěvků"
         anonymize: "Anonymní uživatel"
         anonymize_confirm: "Opravdu chcete tento účet anonymizovat? Tím se změní uživatelské jméno a e-mail a vyčistí všechny informace v profilu."
         anonymize_yes: "Ano, udělejte tento účet anonymním"

@@ -1573,6 +1573,9 @@ hu:
     use_admin_ip_allowlist: "Az adminokk csak akkor tudnak bejelentkezni, ha a Screened IPs listában megadott IP-címmel vannak megadva (Admin > Naplók > Screened Ips)."
     slow_down_crawler_user_agents: 'A forgalmi korlátozás alá elő webes robotok felhasználói ügynökei, ahogy a „robotok sebességének lelassítása” beállításban meg van adva. Minden egyes értéknek legalább 3 karakteresnek kell lennie.'
     content_security_policy_collect_reports: "Engedélyezze a CSP-szabálysértési jelentések gyűjtését /csp_reports címen."
+    post_menu: "Határozza meg, hogy mely elemek és milyen sorrendben jelenjenek meg a bejegyzés menüben."
+    post_menu_hidden_items: "A bejegyzés menüben alapértelmezés szerint elrejtendő menüelemek, hacsak nincs rákattintva egy kibontási pontra."
+    site_contact_group_name: "Egy olyan csoport neve, amely meghívást kap minden automatikusan elküldött privát üzenetre."
     send_welcome_message: "A rövid gyorstalpalóról szóló üzenet elküldése minden új felhasználónak."
     remove_full_quote: "Automatikusan eltávolítja az idézetet, ha (a) a hozzászólás elején jelenik meg, (b) egy teljes hozzászólás, és (c) ha a közvetlenül az előző hozzászólásból származik. A részletekért lásd: <a href='https://meta.discourse.org/t/removal-of-full-quotes-from-direct-replies/106857' target='_blank'>Teljes idézetek eltávolítása a közvetlen válaszokból</a>"
     redirect_users_to_top_page: "Automatikusan átirányítja az új és a régóta távol lévő felhasználókat a legfelső oldalra."
@@ -1612,6 +1615,8 @@ hu:
     default_email_digest_frequency: "Alapértelmezés szerint a felhasználók milyen gyakran kapnak összefoglaló e-maileket."
     default_other_skip_new_user_tips: "A tippek és jelvények kihagyása az új felhasználók regisztrációjakor"
     create_post_for_category_and_tag_changes: "Hozzon létre egy kis akcióbejegyzést, amikor egy téma kategóriája vagy címkéi megváltoznak"
+    watched_precedence_over_muted: "Értesítést kérek az általam némított kategóriákba vagy címkékbe tartozó témákról, amelyek szintén egy olyanhoz tartoznak, amelyet elnémítottam"
+    city_for_disputes: "Adja meg azt a várost, amely a fórum használatával kapcsolatos viták rendezésének joghatósága alá tartozik. Ezt az információt általában jogi dokumentumok tartalmazzák, például a fórum használati feltételei."
     use_email_for_username_and_name_suggestions: "Használja az e-mail címek első részét a felhasználónév- és névjavaslatokhoz. Vegye figyelembe, hogy ez megkönnyíti a nyilvánosság számára a teljes felhasználói e-mail címek kitalálását (mivel az emberek nagy része olyan gyakori szolgáltatásokat használ, mint a „gmail.com”)."
     experimental_new_new_view_groups: 'Kísérleti: Engedélyezzen egy új témalistát, amely egyesíti az olvasatlan és az új témákat, és az oldalsávban lévő "Minden" linket kapcsolja rá.'
     enable_custom_sidebar_sections: "Kísérleti: Egyéni oldalsáv szekciók engedélyezése"
@@ -2700,6 +2705,7 @@ hu:
       description: 365 egymást követő napon járt nálunk
       long_description: |
         Ezt a jelvényt azok kapják, akik 365 egymást követő napon látogatják meg a fórumunkat. Wow, egy egész év!
+    badge_title_metadata: "%{display_name} jelvény itt: %{site_title}"
   admin_login:
     success: "E-mail elküldve"
     errors:
@@ -2734,6 +2740,8 @@ hu:
       introduction:
         title: "Az Ön webhelyéről"
         fields:
+          title:
+            label: "Közösség neve"
           default_locale:
             label: "Nyelv"
       privacy:
@@ -2777,9 +2785,16 @@ hu:
       branding:
         title: "Webhely logó"
       corporate:
+        title: "Az Ön szervezete"
         fields:
+          company_name:
+            label: "Cégnév"
+          governing_law:
+            label: "Irányadó jog"
           contact_url:
             placeholder: "https://www.example.com/contact-us"
+          city_for_disputes:
+            label: "Város a vitákért"
       invites:
         title: "Stáb meghívása"
       finished:
