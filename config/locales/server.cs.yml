@@ -907,6 +907,8 @@ cs:
       description: "Požadavky API na běžné klíče API a uživatelské klíče API."
     consolidated_page_views_browser_detection:
       yaxis: "Den"
+    site_traffic:
+      yaxis: "Den"
     dau_by_mau:
       title: "DAU/MAU"
       xaxis: "Den"
@@ -1093,6 +1095,7 @@ cs:
     top_uploads:
       labels:
         filename: Název souboru
+        author: Autor
     top_ignored_users:
       title: "Nejvíce ignorovaní/ztišení uživatelé"
       labels:
@@ -1195,8 +1198,14 @@ cs:
     dashboard_general_tab_activity_metrics: "Na kartě Obecné vyberte sestavy, které se mají zobrazovat jako metriky aktivity."
     errors:
       invalid_email: "Neplatná emailová adresa."
+      invalid_integer_min_max: "Hodnota musí být mezi %{min} a %{max}."
       invalid_integer: "Hodnota musí být celé číslo."
       invalid_string: "Neplatná hodnota."
+      invalid_string_min:
+        one: "Musí mít alespoň %{count} znak."
+        few: "Musí mít alespoň %{count} znaky."
+        many: "Musí mít alespoň %{count} znaků."
+        other: "Musí mít alespoň %{count} znaků."
       min_username_length_range: "Nemůžete nastavit minimum nad maximum."
       max_username_length_range: "Nemůžete nastavit maximum pod minimum."
     keywords:
@@ -1234,6 +1243,7 @@ cs:
     within_post: "#%{post_number} od %{username}"
     types:
       category: "Kategorie"
+      topic: "Výsledky"
       user: "Uživatelé"
     results_page: "Výsledky hledání pro '%{term}'"
     audio: "[zvuky]"
@@ -1324,6 +1334,11 @@ cs:
         updating_user_ids: "Aktualizace ID uživatele…"
   user:
     username:
+      short:
+        one: "musí mít alespoň %{count} znak"
+        few: "musí mít alespoň %{count} znaky"
+        many: "musí mít alespoň %{count} znaků"
+        other: "musí mít alespoň %{count} znaků"
       unique: "musí být unikátní"
       blank: "nesmí být prázdný"
     email:
@@ -1839,6 +1854,8 @@ cs:
                 label: "Veřejné"
               private:
                 label: "Soukromé"
+          chat_enabled:
+            placeholder: "Povolit chat"
       ready:
         description: "A je to! Provedli jste základní nastavení komunity. Nyní se na to můžete vrhnout a porozhlédnout se, napsat uvítací téma a posílat pozvánky!<br><br>Bavte se!"
       styling:
@@ -1884,6 +1901,7 @@ cs:
       replied: '%{username} vám odpověděl v "%{topic}" - %{site_title}'
       posted: '%{username} přispěl do "%{topic}" - %{site_title}'
       linked: '%{username} odkázal na vás příspěvek v "%{topic}" - %{site_title}'
+      watching_first_post: '%{username} vytvořil nové téma "%{topic}" - %{site_title}'
       confirm_title: "Upozornění zapnuta - %{site_title}"
       confirm_body: "Upozornění úspěšně zapnuta."
       custom: "Upozornění od %{username} na %{site_title}"

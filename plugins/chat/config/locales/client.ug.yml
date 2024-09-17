@@ -195,6 +195,7 @@ ug:
       placeholder_channel: "%{channelName} دا سۆھبەت"
       placeholder_thread: "تېمىدا سۆھبەتلىشىڭ"
       placeholder_users: "%{commaSeparatedNames} بىلەن سۆھبەت"
+      placeholder_group: "گۇرۇپپا ئىچىدە پاراڭلىشىش"
       placeholder_new_message_disallowed:
         archived: "قانال ئارخىپلاشتۇرۇلغان، ھازىر يېڭى ئۇچۇر يوللىيالمايسىز."
         closed: "قانال تاقالغان، ھازىر يېڭى ئۇچۇر يوللىيالمايسىز."
@@ -549,10 +550,13 @@ ug:
         notifications:
           regular:
             title: "ئادەتتىكى"
+            description: "باشقىلار بۇ تېمىدا سىزنى تىلغا ئالغاندا خەۋەر قىلىنىسىز."
           tracking:
             title: "ئىزلاش"
+            description: "باشقىلار سىزنى بۇ تېمىدا تىلغا ئالغاندا خەۋەر قىلىنىسىز ۋە تېما تىزىمىدىكى يېڭى جاۋابلارنىڭ سانى كۆرۈنىدۇ."
           watching:
             title: "كۆزىتىۋاتىدۇ"
+            description: "بۇ تېمىدىكى بارلىق جاۋابلاردىن خەۋەردار قىلىنىسىز ۋە تېما تىزىمىدىكى يېڭى جاۋابلارنىڭ سانى كۆرۈنىدۇ."
         participants_other_count:
           one: "+%{count}"
           other: "+%{count}"
@@ -598,6 +602,7 @@ ug:
         chat_mention: "سۆھبەتتە ئاتاش"
         chat_invitation: "سۆھبەت تەكلىپى"
         chat_quoted: "سۆھبەت نەقىل ئېلىندى"
+        chat_watched_thread: "كۆزەتتىكى تېما سۆھبىتى"
     action_codes:
       chat:
         enabled: '%{when} دە %{who} <button class="btn-link open-chat">سۆھبەت</button>نى قوزغاتتى'

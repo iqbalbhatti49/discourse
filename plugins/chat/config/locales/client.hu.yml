@@ -134,6 +134,7 @@ hu:
       header_indicator_preference:
         title: "Aktivitásjelző megjelenítése a fejlécben"
         all_new: "Minden új üzenet"
+        dm_and_mentions: "Közvetlen üzenetek, említések és figyelt témák"
         only_mentions: "Csak említések"
         never: "Soha"
       separate_sidebar_mode:
@@ -195,6 +196,7 @@ hu:
       placeholder_channel: "Csevegés %{channelName}"
       placeholder_thread: "Csevegés a témában"
       placeholder_users: "Csevegés: %{commaSeparatedNames}"
+      placeholder_group: "Csevegés a csoportban"
       placeholder_new_message_disallowed:
         archived: "A csatorna archiválva van, nem küldhet új üzenetet."
         closed: "A csatorna zárva van, nem küldhet új üzenetet."
@@ -549,10 +551,13 @@ hu:
         notifications:
           regular:
             title: "Normális"
+            description: "Kapjon értesítést, ha valaki megemlíti Önt ebben a témában."
           tracking:
             title: "Követés"
+            description: "Értesítést kap, ha valaki megemlíti Önt ebben a témában, és láthatja az új válaszok számát a téma listájában."
           watching:
             title: "Figyelés"
+            description: "Értesítést kaphat a téma összes válaszáról, és láthatja az új válaszok számát a téma listájában."
         participants_other_count:
           one: "+%{count}"
           other: "+%{count}"
@@ -595,6 +600,7 @@ hu:
         chat_mention: "Csevegési megemlítés"
         chat_invitation: "Csevegési meghívó"
         chat_quoted: "Csevegés idézve"
+        chat_watched_thread: "Figyelt csevegés téma"
     action_codes:
       chat:
         enabled: '%{who} engedélyezte a <button class="btn-link open-chat">csevegést</button> %{when}'

@@ -336,6 +336,7 @@ cs:
       pill: "Navrhované"
       pm_title: "Doporučené zprávy"
     about:
+      edit: "Upravit tuto stránku"
       simple_title: "O fóru"
       title: "O %{title}"
       stats: "Statistiky webu"
@@ -1629,7 +1630,7 @@ cs:
         add_email: "Přidat alternativní e-mail"
         auth_override_instructions: "E-mail lze aktualizovat u poskytovatele ověření."
         no_secondary: "Žádné záložní emailové adresy"
-        instructions: "Nikdy nebude zveřejněno."
+        instructions: "Nikdy nebude zveřejněno"
         admin_note: "Poznámka: Pokud správce změní e-mail jiného uživatele, který není správcem, znamená to, že tento uživatel ztratil přístup ke svému původnímu e-mailovému účtu. Na jeho novou adresu bude odeslán e-mail pro obnovení hesla. E-mail uživatele se nezmění, dokud proces obnovení hesla nedokončí."
         ok: "Pro potvrzení vám pošleme email."
         required: "Zadejte prosím e-mailovou adresu"
@@ -1662,14 +1663,14 @@ cs:
         approval_required: "Váš nový účet musí být schválen moderátorem, než budete moci používat fórum. Jakmile se tak stane, budete informováni emailem."
       name:
         title: "Jméno"
-        instructions: "Vaše celé jméno (nepovinné)."
-        instructions_required: "Vaše celé jméno."
+        instructions: "Vaše celé jméno (nepovinné)"
+        instructions_required: "Vaše celé jméno"
         required: "Zadejte jméno"
         too_short: "Máte moc krátké jméno"
         ok: "Parádní jméno"
       username:
         title: "Uživatelské jméno"
-        instructions: "Jedinečné, bez mezer, krátké."
+        instructions: "Jedinečné, bez mezer, krátké"
         short_instructions: "Lidé vás mohou zmínit pomocí @%{username}"
         available: "Vaše uživatelské jméno je volné"
         not_available: "Není k dispozici. Co třeba %{suggestion}?"
@@ -1887,10 +1888,10 @@ cs:
         same_as_email: "Vaše heslo je stejné jako váš e-mail."
         ok: "Vaše heslo je v pořádku."
         instructions:
-          one: "Alespoň %{count} znak."
-          few: "Alespoň %{count} znaky."
-          many: "Alespoň %{count} znaků."
-          other: "Alespoň %{count} znaků."
+          one: "Alespoň %{count} znak"
+          few: "Alespoň %{count} znaky"
+          many: "Alespoň %{count} znaky"
+          other: "Alespoň %{count} znaky"
         required: "Zadejte prosím heslo"
         confirm: "Potvrdit"
         incorrect_password: "Zadané heslo je nesprávné."
@@ -4939,6 +4940,7 @@ cs:
         installed_version: "Nainstalováno"
         latest_version: "Poslední verze"
         problems_found: "Několik rad na základě vašeho aktuálního nastavení webu"
+        dismiss_notice: "Označit jako přečtené"
         new_features:
           title: "Co je nového"
           previous_announcements: "Předchozí oznámení o nových funkcích můžete vidět na <a href='%{url}' target='_blank'>Discourse Meta</a>"
@@ -5353,8 +5355,6 @@ cs:
           screened_ips: "Filtrované IP"
           screened_urls: "Filtrované URL"
           search_logs: "Hledání"
-          security: "Zabezpečení"
-          spam: "Spam"
           staff_action_logs: "Protokoly akcí redaktorů"
       config_areas:
         about:
@@ -5377,6 +5377,8 @@ cs:
             topic: "témata"
             post: "příspěvky"
             chat_message: "zprávy v chatu"
+          more_options:
+            title: "Další možnosti"
       plugins:
         title: "Pluginy"
         name: "Název"
@@ -5883,6 +5885,7 @@ cs:
           title: "Hledání"
           term: "Období"
           searches: "Vyhledávání"
+          click_through_rate: "CTR"
           types:
             all_search_types: "Vyhledávat všechny typy"
             header: "Hlavička"
@@ -6019,6 +6022,7 @@ cs:
         suspended_until: "(až %{until})"
         suspend_forever: "Pozastavit navždy"
         cant_suspend: "Tento uživatel nemůže být suspendován"
+        post_edits: "Úpravy příspěvků"
         penalty_post_actions: "Co byste chtěli udělat s tímto přidruženým příspěvkem?"
         penalty_post_delete: "Smazat příspěvek"
         penalty_post_edit: "Upravit příspěvek"
@@ -6066,6 +6070,7 @@ cs:
         approve_success: "Uživatel byl schválen a byl mu zaslán aktivační email s instrukcemi."
         approve_bulk_success: "Povedlo se! Všichni uživatelé byli schváleni a byly jim rozeslány notifikace."
         time_read: "Čas strávený čtením"
+        post_edits_count: "Úpravy příspěvků"
         anonymize: "Anonymní uživatel"
         anonymize_confirm: "Opravdu chcete tento účet anonymizovat? Tím se změní uživatelské jméno a e-mail a vyčistí všechny informace v profilu."
         anonymize_yes: "Ano, udělejte tento účet anonymním"

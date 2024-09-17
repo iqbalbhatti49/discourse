@@ -124,10 +124,16 @@ pl_PL:
               label: Typ akcji
             valid_trust_levels:
               label: Prawidłowe poziomy zaufania
+            restricted_tags:
+              label: Tagi
             restricted_category:
               label: Kategoria
             restricted_group:
               label: Grupa
+            restricted_groups:
+              label: Grupy
+            ignore_group_members:
+              label: Ignoruj członków grupy
           created: Utworzono
           edited: Edytowany
         user_updated:

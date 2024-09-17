@@ -6,6 +6,9 @@
 
 ug:
   discourse_narrative_bot:
+    dice:
+      results: |-
+        > :game_die: %{results}
     quote:
       trigger: "نەقىل"
       "8":
@@ -72,16 +75,37 @@ ug:
       reset_trigger: "دەرسلىك"
       hello:
         title: "سالام!"
+      onebox:
+        not_found: |-
+          كەچۈرۈڭ، جاۋابىڭىزدىن ئۇلانمىنى تاپالمىدى! :cry:
+
+          سىز كېيىنكى ئىنكاسىڭىزدا ئايرىم بىر قۇرنى ئىگىلەپ، تۆۋەندىكى ئۇلانمىنى قوشۇشنى سىناپ باقامسىز؟
+
+          <https://en.wikipedia.org/wiki/Exotic_Shorthair>
+      images:
+        like_not_found: |-
+          [يازما]منى :heart: ياقتۇرۇشنىئۇنتۇپ قالدىڭىزمۇ؟(%{url}) :crying_cat_face:
       likes:
         reply: |-
           يازمامنى ياقتۇرغانلىقىڭىزغا رەھمەت!
         not_found: |-
           [يازما]منى :heart: ياقتۇرۇشنىئۇنتۇپ قالدىڭىزمۇ؟(%{url}) :crying_cat_face:
+      formatting:
+        reply: |-
+          ياخشى قىلدىڭىز! HTML ۋە BBCode نى پىچىمغا ئىشلىتەلەيسىز - تەپسىلاتىنى بۇ دەرستىن كۆرۈڭ (https://commonmark.org/help) :nerd:
+      bookmark:
+        instructions: |-
+          تېخىمۇ كۆپ ئۇچۇرنى بىلمەكچى بولسىڭىز، تۆۋەندىكى <img src="%{base_uri}/plugins/discourse-narrative-bot/images/font-awesome-ellipsis.png" width="16" height="16"> ۋە <img src="%{base_uri}/plugins/discourse-narrative-bot/images/font-awesome-bookmark.png" width="16" height="16"> **بۇ شەخسىي ئۇچۇرنى خەتكۈچ قوش**نى تاللاڭ. ئەگەر شۇنداق قىلسىڭىز، كەلگۈسىدە :gift: قا ئېرىشىشىڭىز مۇمكىن!
+      emoji:
+        reply: |-
+          بۇ :sparkles: _چىراي-ئىپادە!_ :sparkles:
       certificate:
         alt: "مۇۋەپپەقىيەت گۇۋاھنامىسى"
     advanced_user_narrative:
       reset_trigger: "ئالىي دەرسلىك"
       title: ":arrow_up: ئالىي ئىشلەتكۈچى ئىقتىدارى"
+      recover:
+        deleted_post_raw: "@%{discobot_username} نېمە ئۈچۈن يازمامنى ئۆچۈردى؟ :anguished:"
       category_hashtag:
         instructions: |-
           يازمىڭىزدا سەھىپە ۋە بەلگىلەرنى نەقىل ئالالايدىغانلىقىڭىزنى بىلەمسىز؟ مەسىلەن، %{category} سەھىپەنى كۆردىڭىزمۇ؟

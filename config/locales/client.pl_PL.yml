@@ -361,6 +361,7 @@ pl_PL:
       pill: "Sugerowane"
       pm_title: "Sugerowane wiadomości"
     about:
+      edit: "Edytuj tę stronę"
       simple_title: "O stronie"
       title: "O %{title}"
       stats: "Statystyki strony"
@@ -1695,7 +1696,7 @@ pl_PL:
         add_email: "Dodaj alternatywny adres e-mail"
         auth_override_instructions: "Adres e-mail można zaktualizować od dostawcy uwierzytelniania."
         no_secondary: "Brak drugorzędnych adresów e-mail"
-        instructions: "Nie będzie publicznie widoczny."
+        instructions: "Nie będzie publicznie widoczny"
         admin_note: "Uwaga: Użytkownik administratora zmieniający adres e-mail innego użytkownika niebędącego administratorem wskazuje, że użytkownik stracił dostęp do oryginalnego konta e-mail, więc na nowy adres zostanie wysłany e-mail z resetem hasła. Adres e-mail użytkownika nie ulegnie zmianie, dopóki nie zakończy się proces resetowania hasła."
         ok: "Otrzymasz potwierdzenie e-mailem"
         required: "Podaj adres e-mail"
@@ -1728,14 +1729,14 @@ pl_PL:
         approval_required: "Moderator musi zaakceptować Twoje nowe konto zanim uzyskasz dostęp do forum. O aktywacji zostaniesz poinformowanym mailem."
       name:
         title: "Pełna nazwa"
-        instructions: "Twoja pełna nazwa (opcjonalnie)."
-        instructions_required: "Twoja pełna nazwa."
+        instructions: "Twoja pełna nazwa (opcjonalnie)"
+        instructions_required: "Twoja pełna nazwa"
         required: "Wprowadź imię"
         too_short: "Twoja nazwa jest zbyt krótka"
         ok: "Twoja nazwa jest ok"
       username:
         title: "Nazwa użytkownika"
-        instructions: "Unikalny, bez spacji, krótki."
+        instructions: "Unikalny, bez spacji, krótki"
         short_instructions: "Inni mogą o tobie wspomnieć pisząc @%{username}"
         available: "Nazwa użytkownika jest dostępna"
         not_available: "Niedostępna. Może spróbuj %{suggestion}?"
@@ -1954,10 +1955,10 @@ pl_PL:
         same_as_email: "Twoje hasło jest takie samo jak twój e-mail."
         ok: "Twoje hasło wygląda na poprawne."
         instructions:
-          one: "Co najmniej %{count} znak."
-          few: "Co najmniej %{count} znaki."
-          many: "Co najmniej %{count} znaków."
-          other: "Co najmniej %{count} znaków."
+          one: "Co najmniej %{count} znak"
+          few: "Co najmniej %{count} znaki"
+          many: "Co najmniej %{count} znaków"
+          other: "Co najmniej %{count} znaków"
         required: "Wprowadź hasło"
         confirm: "Potwierdź"
         incorrect_password: "Wpisane hasło jest nieprawidłowe."
@@ -5009,6 +5010,7 @@ pl_PL:
         installed_version: "Zainstalowana"
         latest_version: "Najnowsza"
         problems_found: "Porada bazująca na twoich aktualnych ustawieniach"
+        dismiss_notice: "Odrzuć"
         new_features:
           title: "Co nowego"
           previous_announcements: "Możesz zobaczyć poprzednie ogłoszenia o nowych funkcjach na <a href='%{url}' target='_blank'>Discourse Meta</a>"
@@ -5483,8 +5485,6 @@ pl_PL:
           screened_ips: "Ekranowane adresy IP"
           screened_urls: "Ekranowane URLe"
           search_logs: "Logi wyszukiwań"
-          security: "Bezpieczeństwo"
-          spam: "Spam"
           staff_action_logs: "Dzienniki działań personelu"
       config_areas:
         about:
@@ -5495,8 +5495,6 @@ pl_PL:
           community_summary: "Podsumowanie społeczności"
           community_description: "Opis społeczności"
           banner_image: "Obraz banera"
-          banner_image_help: |
-            To zdjęcie zostanie wykorzystane na Twojej stronie "O nas". Zalecany rozmiar: 800x300 pikseli. Akceptowane formaty: JPG, PNG i SVG, do 10 MB.
           contact_information: "Informacje kontaktowe"
           community_owner: "Właściciel społeczności"
           community_owner_help: |
@@ -6919,10 +6917,6 @@ pl_PL:
             with_post: <span class="username">%{username}</span> za wpis w %{link}
             with_post_time: <span class="username">%{username}</span> za wpis w %{link} o <span class="time">%{time}</span>
             with_time: <span class="username">%{username}</span> o <span class="time">%{time}</span>
-        badge_intro:
-          title: "Wybierz istniejącą odznakę lub utwórz nową, aby rozpocząć"
-          what_are_badges_title: "Czym są odznaki?"
-          badge_query_examples_title: "Przykład wykonania zapytania odznaki"
         mass_award:
           title: Masowa odznaka
           description: Przyznaj tę samą odznakę wielu użytkownikom jednocześnie.

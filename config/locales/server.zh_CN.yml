@@ -1184,7 +1184,9 @@ zh_CN:
         page_view_crawler: "已知爬虫"
         page_view_other: "其他页面浏览量"
       yaxis: "天"
-      description: "登录用户、匿名用户、已知爬虫和其他用户的页面浏览量。此实验性报告可以确保在计算登录/匿名请求之前这些请求来自真实浏览器。"
+    site_traffic:
+      yaxis: "天"
+      description_link: "https://meta.discourse.org/t/understanding-pageviews-and-the-site-traffic-report/324062"
     dau_by_mau:
       title: "DAU/MAU"
       xaxis: "天"
@@ -1677,8 +1679,6 @@ zh_CN:
     include_secure_categories_in_tag_counts: "启用后，一个标签的话题数量将包括所有用户的阅读限制类别中的话题。禁用时，常规用户只会看到所有话题都为公开类别的标签的话题数量。"
     display_personal_messages_tag_counts: "启用后，将显示使用给定标签标记的个人消息的数量。"
     top_menu: "确定首页导航中显示的条目，以及显示顺序。"
-    post_menu: "确定帖子菜单中显示的条目，以及显示顺序。"
-    post_menu_hidden_items: "除非点击扩展省略号，否则在帖子菜单中默认隐藏的菜单项。"
     share_links: "确定分享对话框中显示的条目以及显示顺序。"
     allow_username_in_share_links: "允许用户名包含在分享链接中。这对于根据唯一身份访客奖励徽章很有用。"
     site_contact_username: "用于发送所有自动消息的有效管理人员用户名。如果留空，将使用默认系统帐户。"
@@ -2171,7 +2171,6 @@ zh_CN:
     notify_about_reviewable_item_after: "如果经过这么多小时数后仍有未处理的可审核条目，请向版主发送个人信息。设置为 0 将禁用。"
     delete_drafts_older_than_n_days: "删除超过 (n) 天未更改的草稿。"
     delete_merged_stub_topics_after_days: "自动删除完全合并的存根话题之前等待的天数。设置为 -1 不会删除。设置为 0 将立即删除。"
-    bootstrap_mode_min_users: "禁用引导模式并移除“开始”按钮所需的最小用户数（设置为 0 将禁用，最多可能需要 24 小时）"
     prevent_anons_from_downloading_files: "阻止匿名用户下载附件。"
     secure_uploads: '限制对所有上传（图片、视频、音频、文本、pdf、zip 等）的访问。如果启用“需要登录”，则只有登录用户才能访问上传。否则，访问将仅限于私信和不公开类别中的媒体上传。警告：此设置比较复杂，需要深入理解管理操作。请参阅 <a target="_blank" href="https://meta.discourse.org/t/-/140017">Meta 安全上传话题</a>以了解详情。'
     secure_uploads_allow_embed_images_in_emails: "如果小于 'secure uploads max email embed image size kb' 设置，则允许嵌入通常会在电子邮件中编辑的安全图片。"
@@ -2326,7 +2325,6 @@ zh_CN:
     experimental_topics_filter: "实验性：在 /filter 下启用实验性话题筛选路由"
     enable_experimental_lightbox: "实验性：将默认图片灯箱替换为全新设计。"
     enable_experimental_bookmark_redesign_groups: "实验性：显示帖子书签的快速访问菜单和重新设计的新模式"
-    glimmer_header_mode: "控制是否使用新的 'glimmer' 标头实现。在所有主题和插件准备就绪后，'auto' 将自动启用。https://meta.discourse.org/t/316549"
     experimental_glimmer_topic_list_groups: "实验性：启用新的 'glimmer' 话题列表实现。此实现正在积极开发中，不适用于生产环境。在实现最终确定并公布之前，请勿针对其开发主题/插件。"
     experimental_form_templates: "实验性：启用表单模板功能。<b>启用后</b>，可以在<a href='%{base_path}/admin/customize/form-templates'>自定义/模板</a>下管理模板。"
     admin_sidebar_enabled_groups: "为指定群组的管理 UI 启用边栏导航，取代顶层管理导航按钮。"
